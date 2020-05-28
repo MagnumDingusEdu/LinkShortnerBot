@@ -60,7 +60,7 @@ dispatcher.add_handler(start_handler)
 def info(update, context):
     context.bot.send_message(
         chat_id=update.effective_chat.id,
-        text='This uses the <a href="https://ln-k.cf">Ln-k</a> API to generate short links. The source code for this bot can be found on <a href="'+"https://google.com"+'">Github</a>',
+        text='This uses the <a href="https://ln-k.cf">Ln-k</a> API to generate short links. The source code for this bot can be found on <a href="'+"https://github.com/MagnumDingusEdu/LinkShortnerBot"+'">Github</a>',
         parse_mode=telegram.ParseMode.HTML,
     )
 
